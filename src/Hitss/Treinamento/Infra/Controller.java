@@ -355,8 +355,8 @@ public class Controller {
 				
 				if (Matricula == matricula[Matricula]) {
 					Bolsista bolsista = new Bolsista();
-					bolsista.setMatricula(matricula[Matricula]);
-					bolsista.setNome(nome[Matricula]);
+					bolsista.matricula = matricula[Matricula];
+					bolsista.nome = nome[Matricula];
 					bolsista.setIdade(idade[Matricula]);
 					bolsista.setSexo(sexo[Matricula]);
 					bolsista.setCurso(curso[Matricula]);

@@ -3,11 +3,12 @@ package Hitss.Treinamento.Classes;
 import Hitss.Treinamento.Classes.*;
 
 public class Bolsista extends Aluno {
-	private int bolsa;
-	private Pessoa pessoa;
+	public int matricula;
+	public int bolsa;
+	public String nome;
 
 	
-	
+	/*
 	public Pessoa getPessoa() {
 		return pessoa;
 	}
@@ -24,5 +25,5 @@ public class Bolsista extends Aluno {
 		this.bolsa = bolsa;
 	} 
 	
-	
+	*/
 }
